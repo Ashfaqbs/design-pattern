@@ -73,3 +73,28 @@ Here, `Car` "Has-A" `Engine` because a car contains an engine. A car has an engi
 * **Has-A** is used for composition. It implies that one class has objects of another class (e.g., `Car Has-A Engine`).
 
 Each relationship is suitable for different design scenarios. "Is-A" is typically used when there is a clear hierarchy or generalization, while "Has-A" is more appropriate when one class is made up of other classes to model parts or components.
+
+
+
+### **1. Is-A Relationship (Inheritance)**
+
+```
+Animal  -|>  Dog
+```
+
+* The `- |> ` symbol represents inheritance, indicating that `Dog` **is a** type of `Animal`.
+
+### **2. Has-A Relationship (Composition)**
+
+```
+Car  ->  Engine
+```
+
+* The `->` symbol indicates that `Car` **has a** `Engine`, meaning the `Car` class contains an `Engine` object.
+
+---
+
+This notation highlights the key difference:
+
+* **Is-A** is shown with `-|>`, which signifies inheritance (a subclass inheriting from a superclass).
+* **Has-A** is shown with `->`, indicating a relationship where one class contains an instance of another class.
