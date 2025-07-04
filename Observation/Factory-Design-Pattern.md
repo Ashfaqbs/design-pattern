@@ -1,4 +1,4 @@
-## 1. Layman’s View (Why the pattern exists)
+## 1. Analogous Scenario (Why the pattern exists)
 
 * Imagine a **shape‑drawing app** that must create **circles**, **rectangles**, **triangles**, etc.
 * Without a factory, the calling code would use `new Circle()`, `new Rectangle()`, … everywhere.
