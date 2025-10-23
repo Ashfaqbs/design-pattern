@@ -17,8 +17,8 @@ public class LoggerClient {
         debugLogger.log("Database connection failed!", 3);
 
         /*
-         * Add debug as starting point, register them in a chain and call the debug logger log and pass the level based in the 
-         * level the next set of loggers will be triggered
+         * Add debug as starting point, register other logger' in the chain and call the debug logger log and pass the level based in the 
+         * level the next set of loggers will be triggered internally as ``` nextLogger.log(message, level);  ```
          *
          */
     }
